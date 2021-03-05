@@ -21,3 +21,24 @@ body {
   background: #333;
 }
 /* End: Global Styles */
+
+/* Start: Split Sections */
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+  background: url("ps.jpg") no-repeat;
+  background-size: cover;
+}
+
+.split.right {
+  right: 0;
+  background: url("xbox.jpg") no-repeat;
+  background-size: cover;
+}
+/* End: Split Sections */
