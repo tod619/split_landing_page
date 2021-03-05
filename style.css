@@ -132,3 +132,17 @@ h1 {
   width: var(--other-width);
 }
 /* End: Split Sections */
+
+/* Start: Media Query */
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .btn {
+    width: 12rem;
+    padding: 1.2rem;
+  }
+}
+/* End: Media Query */
